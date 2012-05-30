@@ -1,0 +1,11 @@
+syslinux-themes-squibby (1.1) precise; urgency=low
+
+  * Update colors 
+
+ -- Pantelis Koukousoulas <pktoss@gmail.com>  Tue, 29 May 2012 12:49:47 +0300
+
+syslinux-themes-squibby (1) precise; urgency=low
+
+  * Initial release, based on syslinux-themes-ubuntu-2
+
+ -- Pantelis Koukousoulas <pktoss@gmail.com>  Thu, 22 Mar 2012 21:31:36 +0200

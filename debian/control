@@ -1,0 +1,29 @@
+Source: syslinux-themes-squibby
+Section: misc
+Priority: optional
+Maintainer: Pantelis Koukousoulas <pktoss@gmail.com>
+Build-Depends: debhelper (>= 8)
+Standards-Version: 3.9.3
+
+Package: syslinux-themes-squibby
+Architecture: amd64 i386
+Depends: ${misc:Depends}, syslinux-themes-squibby-precise
+Description: collection of boot loaders (theme metapackage)
+ SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
+ btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
+ or from CD-ROMs.
+ .
+ This package depends on the package with the graphical bootloader theme
+ for the matching Squibby release.
+
+Package: syslinux-themes-squibby-precise
+Architecture: amd64 i386
+Depends: ${misc:Depends}, memtest86+, syslinux-common
+Enhances: extlinux
+Provides: syslinux-theme
+Description: collection of boot loaders (squibby-precise theme)
+ SYSLINUX is a collection of boot loaders which operates off Linux ext2/3/4 or
+ btrfs filesystems, MS-DOS FAT filesystems, network servers using PXE firmware,
+ or from CD-ROMs.
+ .
+ This package contains the graphical bootloader theme for Squibby precise.
